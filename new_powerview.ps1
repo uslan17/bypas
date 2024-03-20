@@ -1,15 +1,6 @@
 #requires -version 2
 
 
-
-########################################################
-#
-# PSReflect code for Windows API access
-# Author: @mattifestation
-#   https://raw.githubusercontent.com/mattifestation/PSReflect/master/PSReflect.psm1
-#
-########################################################
-
 function New-InMemoryModule {
 
     [Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSUseShouldProcessForStateChangingFunctions', '')]
